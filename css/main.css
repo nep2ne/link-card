@@ -1,6 +1,6 @@
 html {
-  box-sizing: border-box;
   background-color: #f0eee8;
+  box-sizing: border-box;
   font-family: Georgia, serif;
   line-height: 1.5;
 }
@@ -9,19 +9,28 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  background-color: #dcd4cd;
+.link-card {
+  display: inline-block;
+  text-align: left;
   border-radius: 3px;
   border: 3px solid #9a816d;
   padding: 1rem;
-  text-align: left;
+  background-color: #dcd4cd;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
+  background-color: #785439;
 }
 
 a {
   text-decoration: none;
 }
 
-h2 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   color: #512200;
@@ -37,7 +46,7 @@ p {
 dt {
   float: left;
   max-width: 40%;
-  }
+}
 
 dd::after {
   content: " ";
@@ -70,19 +79,11 @@ dd {
   text-align: center;
 }
 
-body:hover {
-  background-color: #cabdb2;
-}
-
-.link-card:hover .btn {
-  background-color: #785439;
-}
-
 hr {
-    display: block;
-    height: 2px;
-    border: 0;
-    border-top: 2px solid #9a816d;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #9a816d;
+  margin: 1em 0;
+  padding: 0;
 }
