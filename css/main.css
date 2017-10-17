@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  background-color: #f0eee8;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -10,7 +12,8 @@ html {
 body {
   background-color: #dcd4cd;
   border-radius: 3px;
-  border-color: #9a816d;
+  border: 3px solid #9a816d;
+  padding: 1rem;
   text-align: left;
 }
 
@@ -22,37 +25,64 @@ h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   color: #512200;
+  margin: 0;
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   color: #512200;
+}
+
+dt {
+  float: left;
+  max-width: 40%;
+  }
+
+dd::after {
+  content: " ";
+  display: block;
+  clear: left;
 }
 
 dl {
   font-size: .875rem;
   color: #512200;
-
 }
 
 dd {
   font-style: italic;
+  margin-left: 50%;
+}
+
+.btn-wrap {
+  text-align: center;
 }
 
 .btn {
-  background-color: #785439;
+  background-color: #9a816d;
   border-radius: 8px;
+  border-width: 2px;
   color: #fff;
-  font-size: 1rem;
+  font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
+  padding: .4em .75em .5em;
+  text-align: center;
 }
 
 .link-card:hover {
-  background-color: #;
-  border-color: #;
-  color: #;
+  background-color: #cabdb2;
 }
 
 .link-card:hover .btn {
-  background-color: #;
+  background-color: #785439;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #9a816d;
+    margin: 1em 0;
+    padding: 0;
 }
