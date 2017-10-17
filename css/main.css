@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -7,15 +8,43 @@ html {
 }
 
 body {
-  border:
+  background-color: #dcd4cd;
+  border-radius: 3px;
+  border-color: #9a816d;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
 }
 
 h2 {
   font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  color: #512200;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #512200;
+}
+
+dl {
+  font-size: .875rem;
+  color: #512200;
+
 }
 
 dd {
   font-style: italic;
+}
+
+.btn {
+  background-color: #785439;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
 }
 
 .link-card:hover {
