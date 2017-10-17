@@ -14,7 +14,7 @@ html {
   text-align: left;
   border-radius: 3px;
   border: 3px solid #9a816d;
-  padding: 1rem;
+  padding: .5rem 1rem 1rem;
   background-color: #dcd4cd;
 }
 
@@ -34,13 +34,14 @@ a {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   color: #512200;
-  margin: 0;
+  margin: 0 0 .75rem;
 }
 
 p {
   font-size: 1rem;
   line-height: 1.5rem;
   color: #512200;
+  margin: 0 0 1rem;
 }
 
 dt {
@@ -51,12 +52,15 @@ dt {
 dd::after {
   content: " ";
   display: block;
-  clear: left;
 }
 
 dl {
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
   font-size: .875rem;
+  line-height: 1.4rem;
   color: #512200;
+  padding: 1em 0;
 }
 
 dd {
@@ -64,7 +68,12 @@ dd {
   margin-left: 50%;
 }
 
+.container {
+  padding-top: .25em;
+}
+
 .btn-wrap {
+  margin: .5em 0;
   text-align: center;
 }
 
@@ -75,15 +84,8 @@ dd {
   color: #fff;
   font-family: Dosis, sans-serif;
   font-size: 1.125rem;
+  font-weight: bold;
+  margin: .5em 0;
   padding: .4em .75em .5em;
   text-align: center;
-}
-
-hr {
-  display: block;
-  height: 2px;
-  border: 0;
-  border-top: 2px solid #9a816d;
-  margin: 1em 0;
-  padding: 0;
 }
