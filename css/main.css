@@ -70,7 +70,7 @@ dd {
   text-align: center;
 }
 
-.link-card:hover {
+body:hover {
   background-color: #cabdb2;
 }
 
