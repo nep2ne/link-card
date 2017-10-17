@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  border:
+}
+
+h2 {
+  font-family: Dosis, sans-serif;
+}
+
+dd {
+  font-style: italic;
+}
+
+.link-card:hover {
+  background-color: #;
+  border-color: #;
+  color: #;
+}
+
+.link-card:hover .btn {
+  background-color: #;
+}
